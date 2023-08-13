@@ -1,43 +1,21 @@
-# Textbase
+# Fitness Bot
 
-✨ Textbase is a framework for building chatbots using NLP and ML. ✨
+This is a onestop destination for all your chatbot needs :
+-
 
-Just implement the `on_message` function in `main.py` and Textbase will take care of the rest :)
+Features:
 
-Since it is just Python you can use whatever models, libraries, vector databases and APIs you want.
+1. Personalised Workout Plans based on your height, weight, gender, available equipments, fitness goal etc
+2. Personalised Meal plan according to your goal
+3. Saves user data automatically in a file so that you don't have to enter it everytime
+4. Allows new users to use the app. When a new name is recognised, saved data is forgotten
+5. Bot takes into consideration all your dietary restrictions (eg: allergy) while making meal plans for you
+6. Bot also remembers your workout plan and mealplan by saving it in a file
+7. Once a plan is created, you dont have to recreate it every time. Bot already knows it
+8. Drawback with gpt 3 model is it's inability to use realtime data. I overcame it to bring realtime updates
+9. Bot automatically detects the day and tells you which is the day's upcoming workout session
+10. It also detects the time and tell you the next meal
+11. Bot also provides recipes for the all the meals provided
 
-_Coming soon:_
 
-- [ ] PyPI package
-- [ ] SMS integration
-- [ ] Easy web deployment via `textbase deploy`
-- [ ] Native integration of other models (Claude, Llama, ...)
 
-## Installation
-
-Clone the repository and install the dependencies using [Poetry](https://python-poetry.org/) (you might have to [install Poetry](https://python-poetry.org/docs/#installation) first).
-
-```bash
-git clone https://github.com/cofactoryai/textbase
-cd textbase
-poetry shell
-poetry install
-```
-
-## Start development server
-
-> If you're using the default template, **remember to set the OpenAI API key** in `main.py`.
-
-Run the following command:
-
-```bash
-poetry run python textbase/textbase_cli.py test main.py
-```
-
-Now go to [http://localhost:4000](http://localhost:4000) and start chatting with your bot! The bot will automatically reload when you change the code.
-
-_Simpler version using PyPI package and CLI coming soon!_
-
-## Contributions
-
-Contributions are welcome! Please open an issue or a pull request.
