@@ -8,7 +8,7 @@ from datetime import date
 
 
 # Load your OpenAI API key
-models.OpenAI.api_key = "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"
+models.OpenAI.api_key = "enter your api key"
 # or from environment variable:
 # models.OpenAI.api_key = os.getenv("OPENAI_API_KEY")
 #s = open("data.txt",w)
