@@ -17,6 +17,10 @@ Features:
 10. It also detects the time and tell you the next meal
 11. Bot also provides recipes for the all the meals provided
 
-https://drive.google.com/file/d/1jkxn9_kvCrhC7uBqI-YVhL_QFtH2cdIu/view?usp=sharing
+---
+# Demo Video
+
+
+https://github.com/basimslam/fitnessbot/assets/75737913/1cc98578-9b7e-405b-bc5f-19fc971ff10b
 
 
